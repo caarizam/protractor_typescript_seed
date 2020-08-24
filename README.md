@@ -1,0 +1,2 @@
+# protractor_typescript_seed
+Automation Testing Protractor Typescript Javascript Cucumber
