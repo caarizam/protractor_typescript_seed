@@ -1,0 +1,46 @@
+{
+  "name": "protractor_typescript_seed",
+  "version": "1.0.0",
+  "description": "Protractor Cucumber Typescript Automation Testing",
+  "main": "config.js",
+  "scripts": {
+    "test": "tsc && protractor config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caarizam/protractor_typescript_seed.git"
+  },
+  "keywords": [
+    "Protractor",
+    "Cucumber",
+    "Typescript",
+    "Automation",
+    "Testing",
+    "nodejs automation",
+    "nodejs testing"
+  ],
+  "author": "Carlos Ariza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caarizam/protractor_typescript_seed/issues"
+  },
+  "homepage": "https://github.com/caarizam/protractor_typescript_seed#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/cucumber": "^6.0.1",
+    "@types/node": "^14.0.1",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "cucumber-protractor-report": "^1.1.0",
+    "mkdirp": "^1.0.4",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "^6.2.1",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "webdriver-manager": "^12.1.7"
+  }
+}
